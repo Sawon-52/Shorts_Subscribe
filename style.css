@@ -167,6 +167,7 @@
 @media only screen and (max-width: 600px) {
     .shorts{
         min-height: 100vh;
+        margin-top: 0;
   }
   
    /* .screen{
