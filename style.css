@@ -1,10 +1,10 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-.shorts{
+.shorts {
     position: relative;
     max-width: 360px;
     min-height: 740px;
@@ -13,11 +13,16 @@
     background-color: rgb(34, 33, 33);
     border-radius: 16px;
     overflow: hidden;
-    z-index: -2;
+    z-index: 0;
     /* padding: 18px; */
 }
 
-.shorts video{
+
+
+
+
+
+.shorts video {
     position: absolute;
     top: 0;
     width: 100%;
@@ -27,7 +32,7 @@
     z-index: -1;
 }
 
-.nav{
+.nav {
     width: 100%;
     padding: 18px;
     display: flex;
@@ -35,27 +40,32 @@
     justify-content: space-between;
     align-items: center;
 }
-.nav .left{
+
+.nav .left {
     display: flex;
     align-items: center;
     gap: 15px;
 }
-.nav .left i{
-    font-size: 15px;    
+
+.nav .left i {
+    font-size: 15px;
 }
-.nav .left h3{
+
+.nav .left h3 {
     font-size: 25px;
 }
-.nav .right_icon{
+
+.nav .right_icon {
     display: flex;
     align-items: center;
     gap: 25px;
 }
-.nav .right_icon i{
+
+.nav .right_icon i {
     font-size: 25px;
 }
 
-.left_middle{
+.left_middle {
     position: absolute;
     right: 18px;
     top: 200px;
@@ -64,19 +74,21 @@
     flex-direction: column;
     gap: 30px;
 }
-.left_middle i{
+
+.left_middle i {
     display: flex;
     flex-direction: column;
     align-items: center;
     font-size: 30px;
     gap: 5px;
 }
-.left_middle i p{
+
+.left_middle i p {
     font-size: 8px;
     letter-spacing: 2px;
 }
 
-.left_middle_user{
+.left_middle_user {
     position: absolute;
     bottom: 120px;
     right: 0;
@@ -87,33 +99,37 @@
     flex-direction: column;
     justify-content: center;
     gap: 10px;
-    
+
 }
-.left_middle_user .middle_user{
+
+.left_middle_user .middle_user {
     display: flex;
     align-items: center;
     gap: 5px;
 }
-.left_middle_user .content_text p{
-   color: white;
-   font-size: 15px;
-   letter-spacing: 0;
+
+.left_middle_user .content_text p {
+    color: white;
+    font-size: 15px;
+    letter-spacing: 0;
 
 }
-.left_middle_user .middle_user i{
+
+.left_middle_user .middle_user i {
     background-color: white;
     color: black;
     border-radius: 50%;
     font-size: 15px;
     padding: 8px;
 }
-.left_middle_user .middle_user p{
+
+.left_middle_user .middle_user p {
     font-size: 15px;
     letter-spacing: 1px;
     font-weight: 600;
 }
 
-.left_middle_user .middle_user button{
+.left_middle_user .middle_user button {
     border: none;
     outline: none;
     color: black;
@@ -122,9 +138,10 @@
     font-size: 12px;
     font-weight: 600;
     border-radius: 25px;
+    cursor: pointer;
 }
 
-.manu_Container{
+.manu_Container {
     position: absolute;
     bottom: 10px;
     width: 100%;
@@ -139,7 +156,7 @@
     justify-content: space-between;
 }
 
-.manu_Container .mainicon i{
+.manu_Container .mainicon i {
     font-size: 28px;
     color: white;
     display: flex;
@@ -148,14 +165,14 @@
     gap: 8px;
 }
 
-.manu_Container .mainicon i p{
+.manu_Container .mainicon i p {
     font-size: 8px;
     color: white;
     letter-spacing: 2px;
-    
+
 }
 
-.mainicon  #plus{
+.mainicon #plus {
     border: 2px solid white;
     border-radius: 50%;
     padding: 10px;
@@ -165,19 +182,14 @@
 
 
 @media only screen and (max-width: 600px) {
-    .shorts{
+    .shorts {
         min-height: 100vh;
         margin-top: 0;
-  }
-  
-   /* .screen{
-    width: 0;
-    height: 0;
-   } */
+    }
 
-   .shorts{
-    max-width: 100%;
-    min-height: 100vh;
-   }
+    .shorts {
+        max-width: 100%;
+        min-height: 100vh;
+    }
 }
 
